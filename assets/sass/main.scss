@@ -1,0 +1,82 @@
+@import "_reset.scss";
+@import "_common_utils.scss";
+@import "_common_colors_sizes.scss";
+
+
+body {
+	font-family: 'Lucida Sans', tahoma, arial, helvetica, sans-serif;
+}
+
+
+.content {
+	margin: auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	width: 685px;
+}
+
+
+h1 {
+	font-size: 32px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+
+h2 {
+	font-size: 18px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+.row {
+	@include clearFixAfter();
+
+	.item {
+		@include textEllipsis();
+
+		float: left;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		width: 105px;
+	}
+
+	.medium {
+		width: 120px;
+	}
+
+	.wide {
+		width: 150px;
+	}
+
+	&.header {
+		background-color: $color-dark;
+		color: $color-light;
+		font-family: tahoma, arial, helvetica, sans-serif;
+		font-size: 24px;
+	}
+
+	&.user-local {
+		background-color: $color-feature;
+		color: $color-dark;
+		font-weight: bold;
+	}
+
+	&.user-follower {
+		background-color: $color-mid-light;
+		color: $color-dark;
+	}
+
+	.header-highlight {
+		color: $color-feature;
+	}
+
+	&.user {
+		border-bottom: 1px solid $color-mid-dark;
+		font-size: 18px;
+	}
+}
+

@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<title>TStrings - JavaScript Example of Translated Strings and Foreign Language Support</title>
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<div class="content">
+	<h1>TStrings.JS</h1>
+	<h2>Example of translated Strings and Foreign Language Support</h2>
+
+	<div class="row header">
+		<div class="item wide" id="name-header">Name</div>
+		<div class="item" id="follower-header">Followers</div>
+		<div class="item" id="friend-header">Friends</div>
+		<div class="item" id="tweet-header">Tweets</div>
+		<div class="item medium" id="location-header">Location</div>
+	</div>
+
+	<div id="user-list"></div>
+
+	<div id="lang-panel">
+		<select id="lang-list">
+			<option>English</option>
+			<option>French</option>
+			<option>Spanish</option>
+		</select>
+		<button id="lang-load">Select</button>
+	</div>
+</div>
+
+<script src="./libs/jquery.js"></script>
+<script src="./libs/underscore.js"></script>
+<script src="./libs/backbone.js"></script>
+
+<script src="./code/AppModule.js"></script>
+<script src="./code/views/AppView.js"></script>
+
+<script src="./code/models/UserInfoModel.js"></script>
+<script src="./code/collections/UserInfoCollection.js"></script>
+<script src="./code/views/UserInfoView.js"></script>
+
+<script src="./code/Application.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		SM.app.onInit();
+	});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+
+@mixin textEllipsis() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+@mixin clearFixAfter() {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
