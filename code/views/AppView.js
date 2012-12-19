@@ -11,7 +11,8 @@ SM.view.Application = Backbone.View.extend({
 		'click #follower-header': 'onFollowerSort',
 		'click #friend-header': 'onFriendSort',
 		'click #tweet-header': 'onTweetSort',
-		'click #location-header': 'onLocationSort'
+		'click #location-header': 'onLocationSort',
+		'click #lang-load': 'onLangLoad'
 	},
 
 	sortListBy: function(event, keyName) {
@@ -42,6 +43,12 @@ SM.view.Application = Backbone.View.extend({
 
 	onLocationSort: function(event) {
 		this.sortListBy(event, 'location');
+	},
+
+	onLangLoad: function() {
+		var elList = $('#lang-list');
+
+		alert(elList.val());
 	}
 
 });

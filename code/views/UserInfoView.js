@@ -6,9 +6,11 @@ SM.view.UserInfo = Backbone.View.extend({
 
 	template:
 		'<div class="row user" data-cid="<%= cid %>">' +
+			'<div class="item medium"><%= programme.display_titles.title %></div>' +
 			'<div class="item wide"><%= programme.title %></div>' +
 			'<div class="item"><%= programme.duration %></div>' +
 			'<div class="item medium"><%= programme.short_synopsis %></div>' +
+			'<div class="item medium"><%= start %></div>' +
 		'</div>',
 
 	events: {
