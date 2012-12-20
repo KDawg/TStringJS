@@ -44,12 +44,24 @@ h2 {
 		width: 105px;
 	}
 
-	.medium {
-		width: 120px;
+	.show {
+		width: 300px;
 	}
 
-	.wide {
+	.duration {
+		width: 100px;
+	}
+
+	.datetime {
 		width: 150px;
+	}
+
+	.channel {
+		width: 160px;
+	}
+
+	.synopsis {
+		width: 700px;
 	}
 
 	&.header {
@@ -59,24 +71,14 @@ h2 {
 		font-size: 24px;
 	}
 
-	&.user-local {
+	&.selected {
 		background-color: $color-feature;
 		color: $color-dark;
 		font-weight: bold;
 	}
 
-	&.user-follower {
-		background-color: $color-mid-light;
-		color: $color-dark;
-	}
-
-	.header-highlight {
-		color: $color-feature;
-	}
-
-	&.user {
+	&.program {
 		border-bottom: 1px solid $color-mid-dark;
-		font-size: 18px;
+		font-size: 14px;
 	}
 }
-

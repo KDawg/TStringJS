@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/TStringsJS.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/en-US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/main.scss" afterPath="$PROJECT_DIR$/assets/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/Application.js" afterPath="$PROJECT_DIR$/code/Application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/AppView.js" afterPath="$PROJECT_DIR$/code/views/AppView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/UserInfoView.js" afterPath="$PROJECT_DIR$/code/views/UserInfoView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="D:\trees\TStringsJS\code\collections\UserInfoCollection.js" afterPath="$PROJECT_DIR$/code/collections/ProgramListCollection.js" />
+      <change type="MOVED" beforePath="D:\trees\TStringsJS\code\models\UserInfoModel.js" afterPath="$PROJECT_DIR$/code/models/ProgramInfo.js" />
+      <change type="MOVED" beforePath="D:\trees\TStringsJS\code\views\UserInfoView.js" afterPath="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
     </list>
     <ignored path="TStringsJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,60 +27,29 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47431508">
+    <splitter split-orientation="horizontal" split-proportion="0.5289203">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="21" selection-start="529" selection-end="529" vertical-scroll-proportion="-9.379311">
+                <state line="22" column="48" selection-start="558" selection-end="558" vertical-scroll-proportion="0.41363102">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+          <file leaf-file-name="ProgramInfoView.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="12" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="14" selection-start="793" selection-end="793" vertical-scroll-proportion="0.7948718">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/code/Application.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="26" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserInfoCollection.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/code/collections/UserInfoCollection.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="95" selection-start="90" selection-end="177" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AppModule.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/code/AppModule.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="9" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+                <state line="51" column="31" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -101,16 +62,25 @@
           <file leaf-file-name="AppView.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="4" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+                <state line="5" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserInfoView.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/code/views/UserInfoView.js">
+          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/code/Application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="30" selection-start="179" selection-end="185" vertical-scroll-proportion="0.19875777">
+                <state line="24" column="6" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -133,21 +103,24 @@
       <list>
         <option value="$PROJECT_DIR$/code/AppModule.js" />
         <option value="$PROJECT_DIR$/code/collections/UserInfoCollection.js" />
+        <option value="$PROJECT_DIR$/code/views/UserInfoView.js" />
+        <option value="$PROJECT_DIR$/strings/en-US.js" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/code/collections/ProgramListCollection.js" />
+        <option value="$PROJECT_DIR$/code/models/ProgramInfo.js" />
         <option value="$PROJECT_DIR$/code/Application.js" />
         <option value="$PROJECT_DIR$/code/views/AppView.js" />
-        <option value="$PROJECT_DIR$/code/views/UserInfoView.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/strings/en-US.js" />
         <option value="$PROJECT_DIR$/assets/sass/main.scss" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="1" />
-    <option name="width" value="1420" />
-    <option name="height" value="817" />
+    <option name="x" value="1680" />
+    <option name="y" value="13" />
+    <option name="width" value="1834" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -289,42 +262,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -332,6 +269,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -387,20 +330,24 @@
       <created>1355718384556</created>
       <updated>1355718384556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working in response rendering view">
+      <created>1355890762757</created>
+      <updated>1355890762757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="1" width="1420" height="817" extended-state="0" />
+    <frame x="1680" y="13" width="1834" height="1053" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16809116" sideWeight="0.670088" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11881188" sideWeight="0.670088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -420,8 +367,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -450,7 +397,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="roughing in a service call, store to collection, viewed in table form" />
+    <option name="LAST_COMMIT_MESSAGE" value="working in response rendering view" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -464,6 +411,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="roughing in a service call, store to collection, viewed in table form" />
+    <MESSAGE value="working in response rendering view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,62 +419,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/AppModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/collections/UserInfoCollection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="95" selection-start="90" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/views/UserInfoView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="179" selection-end="185" vertical-scroll-proportion="0.19875777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strings/es.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -548,23 +440,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/code/collections/ProgramListCollection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="529" selection-end="529" vertical-scroll-proportion="-9.379311">
+        <state line="2" column="29" selection-start="75" selection-end="86" vertical-scroll-proportion="0.03782506">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/code/models/ProgramInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+        <state line="1" column="20" selection-start="21" selection-end="21" vertical-scroll-proportion="0.01862631">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/AppModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="106" selection-end="106" vertical-scroll-proportion="0.03782506">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="793" selection-end="793" vertical-scroll-proportion="0.7948718">
+        <state line="31" column="14" selection-start="793" selection-end="793" vertical-scroll-proportion="0.5862884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="31" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="48" selection-start="558" selection-end="558" vertical-scroll-proportion="0.41363102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

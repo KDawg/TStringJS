@@ -1,16 +1,16 @@
-SM.view.UserInfo = Backbone.View.extend({
+SM.view.ProgramInfo = Backbone.View.extend({
 
 	className: 'subject-panel',
 
 	el: $('#user-list'),
 
 	template:
-		'<div class="row user" data-cid="<%= cid %>">' +
-			'<div class="item medium"><%= programme.display_titles.title %></div>' +
-			'<div class="item wide"><%= programme.title %></div>' +
-			'<div class="item"><%= programme.duration %></div>' +
-			'<div class="item medium"><%= programme.short_synopsis %></div>' +
-			'<div class="item medium"><%= start %></div>' +
+		'<div class="row program" data-cid="<%= cid %>">' +
+			'<div class="item show">Show: <%= programme.display_titles.title %></div>' +
+			'<div class="item duration">Runs: <%= programme.duration %></div>' +
+			'<div class="item datetime">On: <%= start %></div>' +
+			'<div class="item channel">Channel: <%= service.title %></div>' +
+			'<div class="item synopsis">Synopsis: <%= programme.short_synopsis %></div>' +
 		'</div>',
 
 	events: {
@@ -18,6 +18,7 @@ SM.view.UserInfo = Backbone.View.extend({
 	},
 
 	initialize: function() {
+		this.selectedEl = null;
 		_.bindAll(this);
 
 		this.collection.bind('change', this.render);
@@ -36,7 +37,6 @@ SM.view.UserInfo = Backbone.View.extend({
 
 			html = compiledTemplate(dataContext);
 			el = $(html);
-
 			self.$el.append(el);
 		});
 
@@ -48,9 +48,12 @@ SM.view.UserInfo = Backbone.View.extend({
 		var cid = parent.data('cid');
 		var userModel;
 
-		if (cid !== undefined) {
+		if (cid) {
+			parent.addClass('selected');
 			userModel = this.collection.getByCid(cid);
 			console.log(userModel.attributes);
+			if (this.selectedEl) this.selectedEl.removeClass('selected');
+			this.selectedEl = parent;
 		}
 	}
 });

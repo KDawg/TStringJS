@@ -14,8 +14,8 @@ var Application = (function($) {
 
 
 	function getListing() {
-		showsListing = new SM.collection.UserInfo();
-		showsView = new SM.view.UserInfo({collection: showsListing});
+		showsListing = new SM.collection.ProgramList();
+		showsView = new SM.view.ProgramInfo({collection: showsListing});
 
 		$.ajax({
 			url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json',
@@ -24,10 +24,9 @@ var Application = (function($) {
 				showsListing.reset(data.broadcasts);
 			},
 			error: function() {
-
+				console.log('service request error');
 			}
 		});
-
 	}
 
 
@@ -36,17 +35,6 @@ var Application = (function($) {
 	return {
 		onInit: function() {
 			initialize();
-		},
-
-//		onSortBy: function(keyName) {
-//			var sortedArray = followerUserInfo.sortBy(function(userModel) {
-//				return userModel.get(keyName);
-//			});
-//			followerUserInfo.reset(sortedArray);
-//		},
-//
-		showsListing: function() {
-			return showsListing;
 		}
 	};
 
