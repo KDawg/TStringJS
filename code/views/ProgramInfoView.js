@@ -2,15 +2,12 @@ SM.view.ProgramInfo = Backbone.View.extend({
 
 	className: 'subject-panel',
 
-	el: $('#user-list'),
-
 	template:
 		'<div class="row program" data-cid="<%= cid %>">' +
-			'<div class="item show">Show: <%= programme.display_titles.title %></div>' +
-			'<div class="item duration">Runs: <%= programme.duration %></div>' +
-			'<div class="item datetime">On: <%= start %></div>' +
-			'<div class="item channel">Channel: <%= service.title %></div>' +
-			'<div class="item synopsis">Synopsis: <%= programme.short_synopsis %></div>' +
+			'<div class="item show"><%= SM.tstrings.show %>: <%= programme.display_titles.title %></div>' +
+			'<div class="item datetime"><%= SM.tstrings.date %>: <%= moment(start).format("MMM Do YYYY, h:mm:ss a") %></div>' +
+			'<div class="item channel"><%= SM.tstrings.channel %>: <%= service.title %></div>' +
+			'<div class="item synopsis"><%= SM.tstrings.synopsis %>: <%= programme.short_synopsis %></div>' +
 		'</div>',
 
 	events: {
@@ -18,9 +15,9 @@ SM.view.ProgramInfo = Backbone.View.extend({
 	},
 
 	initialize: function() {
-		this.selectedEl = null;
 		_.bindAll(this);
 
+		this.selectedEl = null;
 		this.collection.bind('change', this.render);
 		this.collection.bind('reset', this.render);
 	},
@@ -30,7 +27,8 @@ SM.view.ProgramInfo = Backbone.View.extend({
 		var dataContext, html, el;
 		var self = this;
 
-		self.$el.empty();
+		this.setElement($('#user-list'));
+		this.$el.empty();
 		this.collection.each(function(item) {
 			dataContext = item.toJSON();
 			dataContext.cid = item.cid;

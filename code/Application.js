@@ -8,6 +8,7 @@ var Application = (function($) {
 
 	function initialize() {
 		appView = new SM.view.Application();
+		appView.render();
 
 		getListing();
 	}
@@ -35,6 +36,11 @@ var Application = (function($) {
 	return {
 		onInit: function() {
 			initialize();
+		},
+
+		onRender:function() {
+			appView.render();
+			showsView.render();
 		}
 	};
 

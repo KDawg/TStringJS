@@ -10,19 +10,19 @@ q:before, q:after, blockquote:before, blockquote:after { content: ""; }
 
 body { font-family: 'Lucida Sans', tahoma, arial, helvetica, sans-serif; }
 
-.content { margin: auto; padding-bottom: 20px; padding-top: 10px; width: 800px; }
+.content { background-color: #e4e4e4; margin: auto; padding-bottom: 20px; padding-left: 10px; padding-right: 10px; padding-top: 10px; width: 800px; }
 
 h1 { font-size: 32px; text-align: center; padding-bottom: 5px; }
 
 h2 { font-size: 18px; padding-bottom: 10px; text-align: center; }
 
+.row { padding-bottom: 8px; padding-top: 8px; }
 .row:after { content: ""; display: table; clear: both; }
-.row .item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; padding-top: 5px; width: 105px; }
+.row .item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; padding-left: 10px; padding-right: 10px; width: 105px; }
 .row .show { width: 300px; }
-.row .duration { width: 100px; }
-.row .datetime { width: 150px; }
-.row .channel { width: 160px; }
+.row .datetime { width: 250px; }
+.row .channel { width: 175px; }
 .row .synopsis { width: 700px; }
 .row.header { background-color: #111111; color: white; font-family: tahoma, arial, helvetica, sans-serif; font-size: 24px; }
-.row.selected { background-color: #ffe103; color: #111111; font-weight: bold; }
+.row.selected { background-color: #ffe103; color: #111111; }
 .row.program { border-bottom: 1px solid #acacac; font-size: 14px; }

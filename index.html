@@ -6,43 +6,28 @@
 </head>
 
 <body>
+	<div id="main" class="content"></div>
 
-<div class="content">
-	<h1>TStrings.JS</h1>
-	<h2>Example of translated text strings and foreign language support</h2>
+	<script src="./libs/jquery.js"></script>
+	<script src="./libs/underscore.js"></script>
+	<script src="./libs/backbone.js"></script>
+	<script src="./libs/moment.js"></script>
 
-	<div id="lang-panel">
-		<select id="lang-list">
-			<option>English</option>
-			<option>French</option>
-			<option>Spanish</option>
-		</select>
-		<button id="lang-load">Select</button>
-	</div>
+	<script src="./code/AppModule.js"></script>
+	<script src="./strings/en-US.js"></script>
+	<script src="./code/views/AppView.js"></script>
 
-	<div class="row header"><div>&nbsp</div></div>
-	<div id="user-list"></div>
+	<script src="./code/models/ProgramInfo.js"></script>
+	<script src="./code/collections/ProgramListCollection.js"></script>
+	<script src="./code/views/ProgramInfoView.js"></script>
 
-</div>
+	<script src="./code/Application.js"></script>
 
-<script src="./libs/jquery.js"></script>
-<script src="./libs/underscore.js"></script>
-<script src="./libs/backbone.js"></script>
-
-<script src="./code/AppModule.js"></script>
-<script src="./code/views/AppView.js"></script>
-
-<script src="./code/models/ProgramInfo.js"></script>
-<script src="./code/collections/ProgramListCollection.js"></script>
-<script src="./code/views/ProgramInfoView.js"></script>
-
-<script src="./code/Application.js"></script>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-		SM.app.onInit();
-	});
-</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			SM.app.onInit();
+		});
+	</script>
 
 </body>
 
