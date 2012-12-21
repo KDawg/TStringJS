@@ -19,6 +19,7 @@ h2 { font-size: 18px; padding-bottom: 10px; text-align: center; }
 .row { padding-bottom: 8px; padding-top: 8px; }
 .row:after { content: ""; display: table; clear: both; }
 .row .item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; padding-left: 10px; padding-right: 10px; width: 105px; }
+.row .label { font-weight: bold; }
 .row .show { width: 300px; }
 .row .datetime { width: 250px; }
 .row .channel { width: 175px; }
