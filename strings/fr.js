@@ -1,14 +1,13 @@
 SM.tstrings = {
-	appTitle: 'fr.TStrings.JS',
-	appSubTitle: 'fr.Example of translated text strings and foreign language support',
-	english: 'fr.English',
-	french: 'fr.French',
-	spanish: 'fr.Spanish',
-	select: 'fr.Select',
-	show: 'fr.Show',
-	runs: 'fr.Runs',
-	date: 'fr.Date',
-	channel: 'fr.Channel',
-	duration: 'fr.Duration',
-	synopsis: 'fr.Synopsis'
+	appTitle: 'TStrings.JS',
+	appSubTitle: 'Exemple de chaînes de texte traduites en langue étrangère et de soutien',
+	english: 'Anglais',
+	french: 'Français',
+	spanish: 'Espagnol',
+	select: 'Sélectionner',
+	title: 'Titre',
+	date: 'Date',
+	channel: 'Canal',
+	duration: 'Durée',
+	synopsis: 'Synopsis'
 };

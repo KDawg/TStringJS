@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/moment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/main.scss" afterPath="$PROJECT_DIR$/assets/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/Application.js" afterPath="$PROJECT_DIR$/code/Application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/AppView.js" afterPath="$PROJECT_DIR$/code/views/AppView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/ProgramInfoView.js" afterPath="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strings/en-US.js" afterPath="$PROJECT_DIR$/strings/en-US.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strings/es.js" afterPath="$PROJECT_DIR$/strings/es.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strings/fr.js" afterPath="$PROJECT_DIR$/strings/fr.js" />
@@ -51,16 +45,25 @@
           <file leaf-file-name="ProgramInfoView.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="8" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+                <state line="5" column="18" selection-start="102" selection-end="103" vertical-scroll-proportion="-0.64">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppView.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="AppView.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.5153374">
+                <state line="39" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="en-US.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/strings/en-US.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="2" selection-start="145" selection-end="145" vertical-scroll-proportion="0.09815951">
                   <folding />
                 </state>
               </provider>
@@ -70,10 +73,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/Application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="1.0306748">
+                <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -97,28 +100,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="en-US.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/strings/en-US.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="es.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/strings/es.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="22" selection-start="0" selection-end="352" vertical-scroll-proportion="0.0">
+                <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fr.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="fr.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/strings/fr.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+                <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.26993865">
                   <folding />
                 </state>
               </provider>
@@ -146,13 +140,13 @@
         <option value="$PROJECT_DIR$/code/collections/ProgramListCollection.js" />
         <option value="$PROJECT_DIR$/code/models/ProgramInfo.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/strings/en-US.js" />
         <option value="$PROJECT_DIR$/assets/sass/main.scss" />
-        <option value="$PROJECT_DIR$/strings/es.js" />
         <option value="$PROJECT_DIR$/code/Application.js" />
-        <option value="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
-        <option value="$PROJECT_DIR$/strings/fr.js" />
         <option value="$PROJECT_DIR$/code/views/AppView.js" />
+        <option value="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
+        <option value="$PROJECT_DIR$/strings/en-US.js" />
+        <option value="$PROJECT_DIR$/strings/es.js" />
+        <option value="$PROJECT_DIR$/strings/fr.js" />
       </list>
     </option>
   </component>
@@ -377,7 +371,11 @@
       <created>1355980545468</created>
       <updated>1355980545468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="moment for broadcast date pretty printing, strings loaded and used in templates, main HMTL in app view template rendering">
+      <created>1356063413442</created>
+      <updated>1356063413442</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,7 +438,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="file renames, cleanup on view" />
+    <option name="LAST_COMMIT_MESSAGE" value="moment for broadcast date pretty printing, strings loaded and used in templates, main HMTL in app view template rendering" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -456,6 +454,7 @@
     <MESSAGE value="roughing in a service call, store to collection, viewed in table form" />
     <MESSAGE value="working in response rendering view" />
     <MESSAGE value="file renames, cleanup on view" />
+    <MESSAGE value="moment for broadcast date pretty printing, strings loaded and used in templates, main HMTL in app view template rendering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,34 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/es.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="0" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/en-US.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/fr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="46" selection-end="62" vertical-scroll-proportion="0.0">
@@ -556,14 +527,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="1.0306748">
+        <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.5153374">
+        <state line="39" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="102" selection-end="103" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/en-US.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="145" selection-end="145" vertical-scroll-proportion="0.09815951">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/es.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings/fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.26993865">
           <folding />
         </state>
       </provider>

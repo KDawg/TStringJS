@@ -4,7 +4,7 @@ SM.view.ProgramInfo = Backbone.View.extend({
 
 	template:
 		'<div class="row program" data-cid="<%= cid %>">' +
-			'<div class="item show"><%= SM.tstrings.show %>: <%= programme.display_titles.title %></div>' +
+			'<div class="item show"><%= SM.tstrings.title %>: <%= programme.display_titles.title %></div>' +
 			'<div class="item datetime"><%= SM.tstrings.date %>: <%= moment(start).format("MMM Do YYYY, h:mm:ss a") %></div>' +
 			'<div class="item channel"><%= SM.tstrings.channel %>: <%= service.title %></div>' +
 			'<div class="item synopsis"><%= SM.tstrings.synopsis %>: <%= programme.short_synopsis %></div>' +
