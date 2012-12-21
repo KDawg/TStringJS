@@ -6,7 +6,7 @@ SM.view.Application = Backbone.View.extend({
 		'<h1><%= SM.tstrings.appTitle %></h1>' +
 		'<h2><%= SM.tstrings.appSubTitle %></h2>' +
 
-		'<div id="lang-panel">' +
+		'<div class="lang-panel">' +
 			'<select id="lang-list">' +
 				'<option value="english"><%= SM.tstrings.english %></option>' +
 				'<option value="spanish"><%= SM.tstrings.spanish %></option>' +

@@ -13,3 +13,25 @@
 		clear: both;
 	}
 }
+
+@mixin borderRadius($radius) {
+	border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+
+@mixin boxShadow($params) {
+	-webkit-box-shadow: $params;
+	-moz-box-shadow: $params;
+	box-shadow: $params;
+}
+
+
+@mixin gradient2Stop($c1, $c2) {
+	background: $c1;
+	background-image: linear-gradient(bottom, $c1, $c2);
+	background-image: -moz-linear-gradient($c1, $c2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($c1), to($c2));
+}

@@ -1,6 +1,7 @@
-@import "_reset.scss";
-@import "_common_utils.scss";
-@import "_common_colors_sizes.scss";
+@import "_reset";
+@import "_common_utils";
+@import "_common_colors_sizes";
+@import "_button";
 
 
 body {
@@ -83,4 +84,11 @@ h2 {
 		border-bottom: 1px solid $color-mid-dark;
 		font-size: 14px;
 	}
+}
+
+
+.lang-panel {
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-align: center;
 }

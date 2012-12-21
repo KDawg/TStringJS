@@ -5,3 +5,8 @@ $color-mid-light: #E4E4E4;
 $color-light: #fff;
 
 $color-feature: #FFE103;
+
+$color-button-basic: #03abff;
+$color-button-top: $color-button-basic;
+$color-button-bottom: darken($color-button-basic, 10%);
+$color-button-highlight: lighten($color-button-basic, 35%);

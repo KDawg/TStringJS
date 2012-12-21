@@ -1,0 +1,35 @@
+@import "_common_utils.scss";
+@import "_common_colors_sizes.scss";
+
+
+button {
+	@include borderRadius(5px);
+	@include boxShadow(0px 1px $color-button-highlight inset);
+	@include gradient2Stop($color-button-top, $color-button-bottom);
+
+	border: 1px solid $color-button-bottom;
+	color: $color-light;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	text-align: center;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.35);
+	width: 100px;
+
+	@media screen and (max-width: 480px) {
+		font-size: 16px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		width: 100px;
+	}
+
+	&:hover {
+		@include gradient2Stop(lighten($color-button-top, 10%), lighten($color-button-bottom, 10%));
+	}
+
+	&:active {
+		@include gradient2Stop(darken($color-button-top, 10%), darken($color-button-bottom, 10%));
+	}
+}

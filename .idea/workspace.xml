@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/libs/domReady.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/libs/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sass/_button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TStringsJS.iml" afterPath="$PROJECT_DIR$/.idea/TStringsJS.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" afterPath="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/_common_utils.scss" afterPath="$PROJECT_DIR$/assets/sass/_common_utils.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/main.scss" afterPath="$PROJECT_DIR$/assets/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/AppView.js" afterPath="$PROJECT_DIR$/code/views/AppView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/ProgramInfoView.js" afterPath="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="D:\trees\TStringsJS\libs\backbone.js" afterPath="$PROJECT_DIR$/code/libs/backbone.js" />
-      <change type="MOVED" beforePath="D:\trees\TStringsJS\libs\jquery.js" afterPath="$PROJECT_DIR$/code/libs/jquery.js" />
-      <change type="MOVED" beforePath="D:\trees\TStringsJS\libs\moment.js" afterPath="$PROJECT_DIR$/code/libs/moment.js" />
-      <change type="MOVED" beforePath="D:\trees\TStringsJS\libs\underscore.js" afterPath="$PROJECT_DIR$/code/libs/underscore.js" />
     </list>
     <ignored path="TStringsJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +34,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5042017">
+    <splitter split-orientation="horizontal" split-proportion="0.45402664">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
@@ -48,19 +46,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProgramInfoView.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ProgramInfoView.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="25" selection-start="981" selection-end="981" vertical-scroll-proportion="0.36842105">
+                <state line="10" column="11" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppView.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="AppView.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+                <state line="8" column="19" selection-start="180" selection-end="190" vertical-scroll-proportion="0.14035088">
                   <folding />
                 </state>
               </provider>
@@ -88,10 +86,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="8" selection-start="674" selection-end="679" vertical-scroll-proportion="0.38054055">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_button.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/sass/_button.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="11" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_common_utils.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -100,25 +116,7 @@
           <file leaf-file-name="_common_colors_sizes.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="46" selection-end="62" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="es.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/strings/es.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fr.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/strings/fr.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+                <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -139,23 +137,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/code/AppModule.js" />
-        <option value="$PROJECT_DIR$/code/collections/UserInfoCollection.js" />
         <option value="$PROJECT_DIR$/code/views/UserInfoView.js" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/code/collections/ProgramListCollection.js" />
         <option value="$PROJECT_DIR$/code/models/ProgramInfo.js" />
         <option value="$PROJECT_DIR$/code/Application.js" />
-        <option value="$PROJECT_DIR$/code/views/AppView.js" />
         <option value="$PROJECT_DIR$/strings/en-US.js" />
         <option value="$PROJECT_DIR$/strings/es.js" />
         <option value="$PROJECT_DIR$/strings/fr.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
+        <option value="$PROJECT_DIR$/assets/sass/_common_utils.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/_reset.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" />
+        <option value="$PROJECT_DIR$/assets/sass/_button.scss" />
+        <option value="$PROJECT_DIR$/code/views/AppView.js" />
+        <option value="$PROJECT_DIR$/assets/sass/main.scss" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1677" />
     <option name="y" value="31" />
@@ -306,6 +307,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -391,7 +428,11 @@
       <created>1356064318960</created>
       <updated>1356064318960</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="libs dir brought into code dir, added requirejs source placeholder">
+      <created>1356107032037</created>
+      <updated>1356107032037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,7 +495,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass on languages - thanks Google Translate!" />
+    <option name="LAST_COMMIT_MESSAGE" value="libs dir brought into code dir, added requirejs source placeholder" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -472,6 +513,7 @@
     <MESSAGE value="file renames, cleanup on view" />
     <MESSAGE value="moment for broadcast date pretty printing, strings loaded and used in templates, main HMTL in app view template rendering" />
     <MESSAGE value="pass on languages - thanks Google Translate!" />
+    <MESSAGE value="libs dir brought into code dir, added requirejs source placeholder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -479,13 +521,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/models/ProgramInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="21" selection-end="21" vertical-scroll-proportion="0.01862631">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/AppModule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="9" selection-start="106" selection-end="106" vertical-scroll-proportion="0.03782506">
@@ -500,37 +535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="46" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/Application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -563,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="674" selection-end="679" vertical-scroll-proportion="0.38054055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/libs/backbone.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -588,7 +588,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="981" selection-end="981" vertical-scroll-proportion="0.36842105">
+        <state line="10" column="11" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.10526316">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="180" selection-end="190" vertical-scroll-proportion="0.14035088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -1,7 +1,5 @@
 SM.view.ProgramInfo = Backbone.View.extend({
 
-	className: 'subject-panel',
-
 	template:
 		'<div class="row program" data-cid="<%= cid %>">' +
 			'<div class="item show"><span class="label"><%= SM.tstrings.title %>:</span> <%= programme.display_titles.title %></div>' +
@@ -24,19 +22,16 @@ SM.view.ProgramInfo = Backbone.View.extend({
 
 	render: function() {
 		var compiledTemplate = _.template(this.template);
-		var dataContext, html, el;
-		var self = this;
+		var dataContext;
+		var html = '';
 
 		this.setElement($('#user-list'));
-		this.$el.empty();
 		this.collection.each(function(item) {
 			dataContext = item.toJSON();
 			dataContext.cid = item.cid;
-
-			html = compiledTemplate(dataContext);
-			el = $(html);
-			self.$el.append(el);
+			html += compiledTemplate(dataContext);
 		});
+		this.$el.html(html);
 
 		return this;
 	},
@@ -49,9 +44,9 @@ SM.view.ProgramInfo = Backbone.View.extend({
 		if (cid) {
 			parent.addClass('selected');
 			userModel = this.collection.getByCid(cid);
-			console.log(userModel.attributes);
 			if (this.selectedEl) this.selectedEl.removeClass('selected');
 			this.selectedEl = parent;
+			console.log(userModel.attributes);
 		}
 	}
 });
