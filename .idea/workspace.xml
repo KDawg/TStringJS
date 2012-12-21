@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sass/_button.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TStringsJS.iml" afterPath="$PROJECT_DIR$/.idea/TStringsJS.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" afterPath="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/_common_utils.scss" afterPath="$PROJECT_DIR$/assets/sass/_common_utils.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/sass/main.scss" afterPath="$PROJECT_DIR$/assets/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/AppView.js" afterPath="$PROJECT_DIR$/code/views/AppView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/views/ProgramInfoView.js" afterPath="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/libs/backbone.js" afterPath="$PROJECT_DIR$/code/libs/backbone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/libs/jquery.js" afterPath="$PROJECT_DIR$/code/libs/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/libs/underscore.js" afterPath="$PROJECT_DIR$/code/libs/underscore.js" />
     </list>
     <ignored path="TStringsJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +29,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45402664">
+    <splitter split-orientation="horizontal" split-proportion="0.5091947">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
@@ -55,10 +50,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppView.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="AppView.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="19" selection-start="180" selection-end="190" vertical-scroll-proportion="0.14035088">
+                <state line="9" column="33" selection-start="226" selection-end="226" vertical-scroll-proportion="0.15567568">
                   <folding />
                 </state>
               </provider>
@@ -77,16 +72,16 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/Application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+                <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.7368421">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -432,7 +427,11 @@
       <created>1356107032037</created>
       <updated>1356107032037</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lovely button mix-ins for language select panel">
+      <created>1356119069192</created>
+      <updated>1356119069192</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -445,7 +444,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12046849" sideWeight="0.670088" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12046849" sideWeight="0.670088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -495,7 +494,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="libs dir brought into code dir, added requirejs source placeholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="lovely button mix-ins for language select panel" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -514,6 +513,7 @@
     <MESSAGE value="moment for broadcast date pretty printing, strings loaded and used in templates, main HMTL in app view template rendering" />
     <MESSAGE value="pass on languages - thanks Google Translate!" />
     <MESSAGE value="libs dir brought into code dir, added requirejs source placeholder" />
+    <MESSAGE value="lovely button mix-ins for language select panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -521,41 +521,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/AppModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="106" selection-end="106" vertical-scroll-proportion="0.03782506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="793" selection-end="793" vertical-scroll-proportion="0.5862884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/en-US.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings/es.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strings/fr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
@@ -580,9 +545,7 @@
     <entry file="file://$PROJECT_DIR$/code/libs/underscore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,16 +584,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
+    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="180" selection-end="190" vertical-scroll-proportion="0.14035088">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/code/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.7368421">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/closet/jquery-1.8.3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/closet/jquery-require-sample/jquery-require-sample/webapp/scripts/require-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/closet/jquery-require-sample/jquery-require-sample/webapp/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="341" selection-end="341" vertical-scroll-proportion="0.16308041">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/libs/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3149" column="12" selection-start="88801" selection-end="88801" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="226" selection-end="226" vertical-scroll-proportion="0.15567568">
           <folding />
         </state>
       </provider>
