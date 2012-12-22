@@ -1,4 +1,7 @@
+define(function() {
+	var ProgramInfoModel = Backbone.Model.extend({
 
-SM.model.ProgramInfo = Backbone.Model.extend({
+	});
 
+	return ProgramInfoModel;
 });

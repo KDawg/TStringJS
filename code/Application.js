@@ -1,50 +1,42 @@
+define(['views/AppView', 'collections/ProgramListCollection', 'views/ProgramInfoView', 'strings/en-US'],
+	function(AppView, ProgramList, ProgramInfoView) {
+	var Application = {
 
-var Application = (function($) {
+		appView: null,
 
-	var appView;
-	var showsListing;
-	var showsView;
+		showsListing: null,
 
+		showsView: null,
 
-	function initialize() {
-		appView = new SM.view.Application();
-		appView.render();
-
-		getListing();
-	}
-
-
-	function getListing() {
-		showsListing = new SM.collection.ProgramList();
-		showsView = new SM.view.ProgramInfo({collection: showsListing});
-
-		$.ajax({
-			url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json',
-			dataType: 'json',
-			success: function(data) {
-				showsListing.reset(data.broadcasts);
-			},
-			error: function() {
-				console.log('service request error');
-			}
-		});
-	}
-
-
-	// public interface is returned
-
-	return {
-		onInit: function() {
-			initialize();
+		initialize: function() {
+			this.appView = new AppView();
+			this.appView.render();
+			this.getListing();
 		},
 
-		onRender:function() {
-			appView.render();
-			showsView.render();
+		getListing: function() {
+			var self = this;
+
+			this.showsListing = new ProgramList();
+			this.showsView = new ProgramInfoView({collection: this.showsListing});
+
+			$.ajax({
+				url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json',
+				dataType: 'json',
+				success: function(data) {
+					self.showsListing.reset(data.broadcasts);
+				},
+				error: function() {
+					console.log('service request error');
+				}
+			});
+		},
+
+		render: function() {
+			this.appView.render();
+			this.showsView.render();
 		}
 	};
 
-
-})(jQuery);
-
-SM.app = Application;
+	return Application;
+});

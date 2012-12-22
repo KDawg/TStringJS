@@ -1,4 +1,4 @@
-SM.tstrings = {
+define({
 	appTitle: 'TStrings.JS',
 	appSubTitle: 'Exemple de chaînes de texte traduites en langue étrangère et de soutien',
 	english: 'Anglais',
@@ -10,4 +10,4 @@ SM.tstrings = {
 	channel: 'Canal',
 	duration: 'Durée',
 	synopsis: 'Synopsis'
-};
+});

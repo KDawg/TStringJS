@@ -1,7 +1,11 @@
-SM.collection.ProgramList = Backbone.Collection.extend({
+define(['models/ProgramInfo'], function(ProgramInfoModel) {
+	var ProgramList = Backbone.Collection.extend({
 
-	model: SM.model.ProgramInfo,
+		model: ProgramInfoModel,
 
-	url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json'
+		url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json'
 
+	});
+
+	return ProgramList;
 });
