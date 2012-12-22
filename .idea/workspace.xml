@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="rewrite into modules for RequireJS modular architecture">
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\TStringsJS.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\libraries\sass_stdlib.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\vcs.xml" afterPath="" />
+    <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="">
       <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="TStringsJS.iws" />
@@ -396,7 +388,11 @@
       <created>1356198823247</created>
       <updated>1356198823247</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="untracking local artifact files">
+      <created>1356198971892</created>
+      <updated>1356198971892</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -459,7 +455,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrite into modules for RequireJS modular architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="untracking local artifact files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -481,6 +477,7 @@
     <MESSAGE value="lovely button mix-ins for language select panel" />
     <MESSAGE value="jquery, backbone, underscore libs updated to latest in prod" />
     <MESSAGE value="rewrite into modules for RequireJS modular architecture" />
+    <MESSAGE value="untracking local artifact files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
