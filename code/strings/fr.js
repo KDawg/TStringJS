@@ -12,5 +12,6 @@ TS.tstring = {
 	date: 'Date',
 	channel: 'Canal',
 	duration: 'Durée',
-	synopsis: 'Synopsis'
+	synopsis: 'Synopsis',
+	selectedProgram: 'Vous avez sélectionné le programme intitulé'
 };
