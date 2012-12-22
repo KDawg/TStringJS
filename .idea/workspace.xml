@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6959fa-7c20-48d9-9164-5a4bce0a2834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/libs/backbone.js" afterPath="$PROJECT_DIR$/code/libs/backbone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/libs/jquery.js" afterPath="$PROJECT_DIR$/code/libs/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/libs/underscore.js" afterPath="$PROJECT_DIR$/code/libs/underscore.js" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\TStringsJS.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\libraries\sass_stdlib.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\trees\TStringsJS\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="TStringsJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,13 +34,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5091947">
+    <splitter split-orientation="horizontal" split-proportion="0.48501363">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.827586">
+                <state line="8" column="39" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.413793">
                   <folding />
                 </state>
               </provider>
@@ -44,25 +49,16 @@
           <file leaf-file-name="ProgramInfoView.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="11" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+                <state line="2" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppView.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="AppView.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="33" selection-start="226" selection-end="226" vertical-scroll-proportion="0.15567568">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="en-US.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/strings/en-US.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="2" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+                <state line="18" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.298573">
                   <folding />
                 </state>
               </provider>
@@ -72,37 +68,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/code/Application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.7368421">
+                <state line="9" column="40" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_button.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/sass/_button.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="11" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_common_utils.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+                <state line="78" column="20" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.5367965">
                   <folding />
                 </state>
               </provider>
@@ -111,7 +89,16 @@
           <file leaf-file-name="_common_colors_sizes.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+                <state line="8" column="12" selection-start="143" selection-end="157" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_button.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/sass/_button.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="22" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -132,31 +119,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/code/views/UserInfoView.js" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/code/collections/ProgramListCollection.js" />
+        <option value="$PROJECT_DIR$/code/main.js" />
         <option value="$PROJECT_DIR$/code/models/ProgramInfo.js" />
-        <option value="$PROJECT_DIR$/code/Application.js" />
-        <option value="$PROJECT_DIR$/strings/en-US.js" />
-        <option value="$PROJECT_DIR$/strings/es.js" />
-        <option value="$PROJECT_DIR$/strings/fr.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
-        <option value="$PROJECT_DIR$/assets/sass/_common_utils.scss" />
-        <option value="$PROJECT_DIR$/assets/sass/_reset.scss" />
-        <option value="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/sass/_button.scss" />
-        <option value="$PROJECT_DIR$/code/views/AppView.js" />
+        <option value="$PROJECT_DIR$/code/views/ProgramInfoView.js" />
+        <option value="$PROJECT_DIR$/code/Application.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/code/AppModule.js" />
+        <option value="$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss" />
         <option value="$PROJECT_DIR$/assets/sass/main.scss" />
+        <option value="$PROJECT_DIR$/code/strings/en-US.js" />
+        <option value="$PROJECT_DIR$/code/views/AppView.js" />
+        <option value="$PROJECT_DIR$/code/strings/de.js" />
+        <option value="$PROJECT_DIR$/code/strings/it.js" />
+        <option value="$PROJECT_DIR$/code/strings/fr.js" />
+        <option value="$PROJECT_DIR$/code/strings/es.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1677" />
-    <option name="y" value="31" />
-    <option name="width" value="1809" />
-    <option name="height" value="1085" />
+    <option name="x" value="1699" />
+    <option name="y" value="19" />
+    <option name="width" value="1740" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,93 +199,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TStringsJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,6 +252,20 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TStringsJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -340,17 +273,71 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TStringsJS">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="252" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="251" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="252" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="252" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="926" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="926" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="252" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="251" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -372,6 +359,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\trees\TStringsJS\assets" />
       <recent name="D:\trees\TStringsJS\code" />
       <recent name="D:\trees\TStringsJS" />
     </key>
@@ -431,28 +419,52 @@
       <created>1356119069192</created>
       <updated>1356119069192</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="jquery, backbone, underscore libs updated to latest in prod">
+      <created>1356120570507</created>
+      <updated>1356120570507</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jquery, backbone, underscore libs updated to latest in prod">
+      <created>1356121634296</created>
+      <updated>1356121634296</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rewrite into modules for RequireJS modular architecture">
+      <created>1356198823247</created>
+      <updated>1356198823247</updated>
+    </task>
+    <task id="LOCAL-00011" summary="untracking local artifact files">
+      <created>1356198971892</created>
+      <updated>1356198971892</updated>
+    </task>
+    <task id="LOCAL-00012" summary="untracking local artifact files">
+      <created>1356198996057</created>
+      <updated>1356198996057</updated>
+    </task>
+    <task id="LOCAL-00013" summary="dir reorg, additional languages, graphic design polish">
+      <created>1356204239195</created>
+      <updated>1356204239195</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1677" y="31" width="1809" height="1085" extended-state="0" />
+    <frame x="1699" y="19" width="1740" height="1084" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4214963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12046849" sideWeight="0.670088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12180974" sideWeight="0.6701791" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -494,7 +506,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="lovely button mix-ins for language select panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="dir reorg, additional languages, graphic design polish" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -514,6 +526,10 @@
     <MESSAGE value="pass on languages - thanks Google Translate!" />
     <MESSAGE value="libs dir brought into code dir, added requirejs source placeholder" />
     <MESSAGE value="lovely button mix-ins for language select panel" />
+    <MESSAGE value="jquery, backbone, underscore libs updated to latest in prod" />
+    <MESSAGE value="rewrite into modules for RequireJS modular architecture" />
+    <MESSAGE value="untracking local artifact files" />
+    <MESSAGE value="dir reorg, additional languages, graphic design polish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -521,118 +537,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/strings/fr.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+        <state line="1" column="18" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.827586">
+        <state line="8" column="39" selection-start="235" selection-end="235" vertical-scroll-proportion="-4.413793">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/libs/backbone.js">
+    <entry file="file://$PROJECT_DIR$/code/models/ProgramInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="51" selection-end="51" vertical-scroll-proportion="0.03539823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/collections/ProgramListCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="84" selection-end="84" vertical-scroll-proportion="0.035914704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/AppModule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/libs/underscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.10526316">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_common_utils.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+        <state line="16" column="22" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/assets/sass/_common_colors_sizes.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="12" selection-start="143" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/Application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="780" selection-end="780" vertical-scroll-proportion="0.7368421">
+        <state line="9" column="40" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/closet/jquery-1.8.3.js">
+    <entry file="file://$PROJECT_DIR$/code/views/ProgramInfoView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/closet/jquery-require-sample/jquery-require-sample/webapp/scripts/require-jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/closet/jquery-require-sample/jquery-require-sample/webapp/app.html">
+    <entry file="file://$PROJECT_DIR$/code/strings/fr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="341" selection-end="341" vertical-scroll-proportion="0.16308041">
+        <state line="3" column="21" selection-start="130" selection-end="166" vertical-scroll-proportion="0.05268935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/libs/jquery.js">
+    <entry file="file://$PROJECT_DIR$/code/strings/es.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3149" column="12" selection-start="88801" selection-end="88801" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="3" column="32" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/strings/en-US.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="122" selection-end="158" vertical-scroll-proportion="0.05268935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/strings/it.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="131" selection-end="167" vertical-scroll-proportion="0.07025247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/strings/de.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="229" selection-end="229" vertical-scroll-proportion="0.1053787">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/views/AppView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="226" selection-end="226" vertical-scroll-proportion="0.15567568">
+        <state line="18" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.298573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="20" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.5367965">
           <folding />
         </state>
       </provider>
