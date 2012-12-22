@@ -1,5 +1,7 @@
 
 $color-dark: #111;
+$color-dark-text: #555;
+$color-light-text: #888;
 $color-mid-dark: #ACACAC;
 $color-mid-light: #E4E4E4;
 $color-light: #fff;
@@ -10,3 +12,5 @@ $color-button-basic: #03abff;
 $color-button-top: $color-button-basic;
 $color-button-bottom: darken($color-button-basic, 10%);
 $color-button-highlight: lighten($color-button-basic, 35%);
+
+$color-drop-shadow: rgba(48, 0, 48, 0.75);

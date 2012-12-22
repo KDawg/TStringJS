@@ -1,4 +1,3 @@
-
-SM.model.ProgramInfo = Backbone.Model.extend({
+TS.model.ProgramInfo = Backbone.Model.extend({
 
 });

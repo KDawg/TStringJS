@@ -7,7 +7,7 @@ var Application = (function($) {
 
 
 	function initialize() {
-		appView = new SM.view.Application();
+		appView = new TS.view.Application();
 		appView.render();
 
 		getListing();
@@ -15,8 +15,8 @@ var Application = (function($) {
 
 
 	function getListing() {
-		showsListing = new SM.collection.ProgramList();
-		showsView = new SM.view.ProgramInfo({collection: showsListing});
+		showsListing = new TS.collection.ProgramList();
+		showsView = new TS.view.ProgramInfo({collection: showsListing});
 
 		$.ajax({
 			url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json',
@@ -47,4 +47,4 @@ var Application = (function($) {
 
 })(jQuery);
 
-SM.app = Application;
+TS.app = Application;

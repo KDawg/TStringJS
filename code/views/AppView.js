@@ -1,24 +1,23 @@
-SM.view.Application = Backbone.View.extend({
+TS.view.Application = Backbone.View.extend({
 
 	el: $('#main'),
 
 	template:
-		'<h1><%= SM.tstrings.appTitle %></h1>' +
-		'<h2><%= SM.tstrings.appSubTitle %></h2>' +
+		'<h1><%= TS.tstring.appTitle %></h1>' +
+		'<h2><%= TS.tstring.appSubTitle %></h2>' +
 
 		'<div class="lang-panel">' +
 			'<select id="lang-list">' +
-				'<option value="english"><%= SM.tstrings.english %></option>' +
-				'<option value="spanish"><%= SM.tstrings.spanish %></option>' +
-				'<option value="french"><%= SM.tstrings.french %></option>' +
+				'<option value="english"><%= TS.tstring.english %></option>' +
+				'<option value="spanish"><%= TS.tstring.spanish %></option>' +
+				'<option value="french"><%= TS.tstring.french %></option>' +
+				'<option value="italian"><%= TS.tstring.italian %></option>' +
+				'<option value="german"><%= TS.tstring.german %></option>' +
 			'</select>' +
-			'<button id="lang-load"><%= SM.tstrings.select %></button>' +
+			'<button id="lang-load"><%= TS.tstring.select %></button>' +
 		'</div>' +
-		'<div class="row header"><div>&nbsp</div></div>' +
+		'<div class="row header">BBC SciFi <%= TS.tstring.programListing %></div>' +
 		'<div id="user-list"></div>',
-
-	initialize: function() {
-	},
 
 	events: {
 		'click #lang-load': 'onLangLoad'
@@ -38,17 +37,18 @@ SM.view.Application = Backbone.View.extend({
 		if (lang === 'english') langFn = 'en-US.js';
 		else if (lang === 'french') langFn = 'fr.js';
 		else if (lang === 'spanish') langFn = 'es.js';
+		else if (lang === 'italian') langFn = 'it.js';
+		else if (lang === 'german') langFn = 'de.js';
 
 		console.log(lang);
 		$.ajax({
-			url: 'strings/' + langFn,
+			url: 'code/strings/' + langFn,
 			dataType: 'script',
 			success: function(data, textStatus, jqXHR) {
-				console.log(data);
-				SM.app.onRender();
+				TS.app.onRender();
 			},
 			error: function() {
-				console.log('service request error');
+				console.log('language service request error');
 			}
 		});
 

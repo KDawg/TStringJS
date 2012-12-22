@@ -1,6 +1,6 @@
-SM.collection.ProgramList = Backbone.Collection.extend({
+TS.collection.ProgramList = Backbone.Collection.extend({
 
-	model: SM.model.ProgramInfo,
+	model: TS.model.ProgramInfo,
 
 	url: 'http://www.bbc.co.uk/tv/programmes/genres/drama/scifiandfantasy/schedules/upcoming.json'
 

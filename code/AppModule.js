@@ -1,6 +1,6 @@
-// encapsulate all library-specific modules into a global namespace, NOTE: load this .js first!
+// encapsulate all app code modules into a global namespace, NOTE: load this .js first!
 
-var SM = SM || {};
-SM.model = SM.model || {};
-SM.view = SM.view || {};
-SM.collection = SM.collection || {};
+var TS = TS || {};
+TS.model = TS.model || {};
+TS.view = TS.view || {};
+TS.collection = TS.collection || {};

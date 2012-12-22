@@ -1,11 +1,11 @@
-SM.view.ProgramInfo = Backbone.View.extend({
+TS.view.ProgramInfo = Backbone.View.extend({
 
 	template:
 		'<div class="row program" data-cid="<%= cid %>">' +
-			'<div class="item show"><span class="label"><%= SM.tstrings.title %>:</span> <%= programme.display_titles.title %></div>' +
-			'<div class="item datetime"><span class="label"><%= SM.tstrings.date %>:</span> <%= moment(start).format("MMM Do YYYY, h:mm:ss a") %></div>' +
-			'<div class="item channel"><span class="label"><%= SM.tstrings.channel %>:</span> <%= service.title %></div>' +
-			'<div class="item synopsis"><span class="label"><%= SM.tstrings.synopsis %>:</span> <%= programme.short_synopsis %></div>' +
+			'<div class="item show"><span class="label"><%= TS.tstring.title %>:</span> <%= programme.display_titles.title %></div>' +
+			'<div class="item datetime"><span class="label"><%= TS.tstring.date %>:</span> <%= moment(start).format("MMM Do YYYY, h:mm:ss a") %></div>' +
+			'<div class="item channel"><span class="label"><%= TS.tstring.channel %>:</span> <%= service.title %></div>' +
+			'<div class="item synopsis"><span class="label"><%= TS.tstring.synopsis %>:</span> <%= programme.short_synopsis %></div>' +
 		'</div>',
 
 	events: {
@@ -43,7 +43,7 @@ SM.view.ProgramInfo = Backbone.View.extend({
 
 		if (cid) {
 			parent.addClass('selected');
-			userModel = this.collection.getByCid(cid);
+			userModel = this.collection.get(cid);
 			if (this.selectedEl) this.selectedEl.removeClass('selected');
 			this.selectedEl = parent;
 			console.log(userModel.attributes);
