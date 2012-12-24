@@ -18,5 +18,5 @@ sharing my best practices. I hope this helps you when you need a
 practical reference.
 
 ##Further Info
-* Read the accompanying technical article on http://blog.katworksgames.com
+* Read the accompanying technical article on http://blog.katworksgames.com/2012/12/23/translated-strings-and-foreign-language-support/
 * Reach out to me on Twitter [@KenTabor](https://twitter.com/KenTabor)
