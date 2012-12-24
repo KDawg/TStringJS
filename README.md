@@ -18,5 +18,5 @@ sharing my best practices. I hope this helps you when you need a
 practical reference.
 
 ##Further Info
-* Read the accompanying technical article on blog.katworksgames.com
+* Read the accompanying technical article on http://blog.katworksgames.com
 * Reach out to me on Twitter @KenTabor
