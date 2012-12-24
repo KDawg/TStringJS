@@ -21,6 +21,8 @@ h1 { font-size: 32px; font-weight: bold; padding-bottom: 5px; text-align: center
 
 h2 { color: #555555; font-size: 18px; padding-bottom: 10px; text-align: center; }
 
+a { text-decoration: none; }
+
 .row { background-color: #e4e4e4; color: #888888; padding-bottom: 8px; padding-top: 8px; }
 .row:after { content: ""; display: table; clear: both; }
 .row .item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; float: left; padding-left: 10px; padding-right: 10px; width: 105px; }

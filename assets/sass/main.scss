@@ -36,6 +36,11 @@ h2 {
 }
 
 
+a {
+	text-decoration: none;
+}
+
+
 .row {
 	@include clearFixAfter();
 	background-color: $color-mid-light;

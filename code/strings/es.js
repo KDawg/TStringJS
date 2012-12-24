@@ -1,6 +1,7 @@
 TS.tstring = {
 	appTitle: 'TStrings.JS',
 	appSubTitle: 'Ejemplo de cadenas de texto traducidas y soporte del idioma extranjero',
+	blogLink: 'Leer el artículo técnico en mi blog',
 	programListing: 'Programa de Venta',
 	english: 'Inglés',
 	french: 'Francés',
