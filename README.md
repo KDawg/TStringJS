@@ -19,4 +19,4 @@ practical reference.
 
 ##Further Info
 * Read the accompanying technical article on http://blog.katworksgames.com
-* Reach out to me on Twitter @KenTabor (https://twitter.com/KenTabor)
+* Reach out to me on Twitter [@KenTabor](https://twitter.com/KenTabor)
