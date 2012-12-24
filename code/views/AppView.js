@@ -5,7 +5,7 @@ TS.view.Application = Backbone.View.extend({
 	template:
 		'<h1><%= TS.tstring.appTitle %></h1>' +
 		'<h2><%= TS.tstring.appSubTitle %></h2>' +
-		'<a href="http://blog.katworksgames.com/"><h2><%= TS.tstring.blogLink %></h2></a>' +
+		'<a href="http://blog.katworksgames.com/2012/12/23/translated-strings-and-foreign-language-support/" target="_blank"><h2><%= TS.tstring.blogLink %></h2></a>' +
 
 		'<div class="lang-panel">' +
 			'<select id="lang-list">' +
