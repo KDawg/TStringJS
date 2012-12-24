@@ -41,7 +41,6 @@ TS.view.Application = Backbone.View.extend({
 		else if (lang === 'italian') langFn = 'it.js';
 		else if (lang === 'german') langFn = 'de.js';
 
-		console.log(lang);
 		$.ajax({
 			url: 'code/strings/' + langFn,
 			dataType: 'script',
