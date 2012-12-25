@@ -1,5 +1,5 @@
 TS.tstring = {
-	appTitle: 'TStrings.JS',
+	appTitle: 'TString.JS',
 	appSubTitle: 'Beispiel der übersetzten Texte und Unterstützung von Fremdsprachen',
 	blogLink: 'Lesen Sie die technischen Artikel auf meinem Blog',
 	programListing: 'Programm Listing',
