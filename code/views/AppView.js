@@ -13,6 +13,7 @@ TS.view.Application = Backbone.View.extend({
     '<option value="french"><%= TS.tstring.french %></option>' +
     '<option value="italian"><%= TS.tstring.italian %></option>' +
     '<option value="german"><%= TS.tstring.german %></option>' +
+    '<option value="psuedo"><%= TS.tstring.psuedo %></option>' +
     '</select>' +
     '<button id="lang-load"><%= TS.tstring.select %></button>' +
     '</div>' +
@@ -39,6 +40,7 @@ TS.view.Application = Backbone.View.extend({
     else if (lang === 'spanish') langFn = 'es.js';
     else if (lang === 'italian') langFn = 'it.js';
     else if (lang === 'german') langFn = 'de.js';
+    else if (lang === 'psuedo') langFn = 'dbg-psuedo.js';
 
     $.ajax({
       url: 'code/strings/' + langFn,

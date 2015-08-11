@@ -8,6 +8,7 @@ TS.tstring = {
   spanish: 'Espagnol',
   italian: 'Italien',
   german: 'Allemand',
+  psuedo: '[!!Ƥŝũěđō Łơćâļĩźȅ!!]',
   select: 'Sélectionner',
   title: 'Titre',
   date: 'Date',
