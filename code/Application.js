@@ -1,17 +1,18 @@
-var Application = (function ($) {
+var Application = (function($) {
 
   var appView;
   var showsListing;
   var showsView;
 
-
   function initialize() {
+    TS.analytics.onInit();
+    TS.analytics.event('App', 'Load');
+
     appView = new TS.view.Application();
     appView.render();
 
     getListing();
   }
-
 
   function getListing() {
     showsListing = new TS.collection.ProgramList();
@@ -19,20 +20,18 @@ var Application = (function ($) {
     showsListing.fetch();
   }
 
-
   // public interface is returned
 
   return {
-    onInit: function () {
+    onInit: function() {
       initialize();
     },
 
-    onRender: function () {
+    onRender: function() {
       appView.render();
       showsView.render();
     }
   };
-
 
 })(jQuery);
 

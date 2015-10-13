@@ -42,6 +42,8 @@ TS.view.Application = Backbone.View.extend({
     else if (lang === 'german') langFn = 'de.js';
     else if (lang === 'psuedo') langFn = 'dbg-psuedo.js';
 
+    TS.analytics.event('Language', 'Select', lang);
+
     $.ajax({
       url: 'code/strings/' + langFn,
       dataType: 'script',
