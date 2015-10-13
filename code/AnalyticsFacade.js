@@ -1,4 +1,4 @@
-var AnalyticsFacade = (function($) {
+var AnalyticsFacade = (function() {
 
   return {
     onInit: function() {
