@@ -20,6 +20,10 @@ var AnalyticsFacade = (function() {
 
     event: function(category, action, label, value) {
       ga('send', 'event', category, action, label, value);
+    },
+
+    trackTime: function(category, action, durationMS, context) {
+      ga('send', 'timing', category, action, durationMS, context);
     }
   }
 })();

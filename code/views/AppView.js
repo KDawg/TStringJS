@@ -27,13 +27,20 @@ TS.view.Application = Backbone.View.extend({
   render: function () {
     var compiledTemplate = _.template(this.template);
     var html = compiledTemplate({});
+
     this.$el.html(html);
+    this.renderAtTime = Date.now();
   },
 
   onLangLoad: function () {
     var elList = $('#lang-list');
     var lang = elList.val();
     var langFn;
+    var dt;
+    var timeStart = Date.now();
+
+    dt = timeStart - this.renderAtTime;
+    TS.analytics.trackTime('TimeOnTask', 'RenderToLangLoad', dt);
 
     if (lang === 'english') langFn = 'en-US.js';
     else if (lang === 'french') langFn = 'fr.js';
@@ -48,7 +55,9 @@ TS.view.Application = Backbone.View.extend({
       url: 'code/strings/' + langFn,
       dataType: 'script',
       success: function (data, textStatus, jqXHR) {
+        dt = Date.now() - timeStart;
         TS.app.onRender();
+        TS.analytics.trackTime('Perf', 'LangLoad', dt, lang);
       },
       error: function () {
         console.log('language service request error');
