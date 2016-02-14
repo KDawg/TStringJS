@@ -22,7 +22,7 @@ var AnalyticsFacade = (function() {
       ga('send', 'event', category, action, label, value);
     },
 
-    trackTime: function(category, action, durationMS, context) {
+    time: function(category, action, durationMS, context) {
       ga('send', 'timing', category, action, durationMS, context);
     }
   }

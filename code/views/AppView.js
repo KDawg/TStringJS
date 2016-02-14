@@ -40,7 +40,7 @@ TS.view.Application = Backbone.View.extend({
     var timeStart = Date.now();
 
     dt = timeStart - this.renderAtTime;
-    TS.analytics.trackTime('TimeOnTask', 'RenderToLangLoad', dt);
+    TS.analytics.time('TimeOnTask', 'RenderToLangLoad', dt);
 
     if (lang === 'english') langFn = 'en-US.js';
     else if (lang === 'french') langFn = 'fr.js';
@@ -57,7 +57,7 @@ TS.view.Application = Backbone.View.extend({
       success: function (data, textStatus, jqXHR) {
         dt = Date.now() - timeStart;
         TS.app.onRender();
-        TS.analytics.trackTime('Perf', 'LangLoad', dt, lang);
+        TS.analytics.time('Perf', 'LangLoad', dt, lang);
       },
       error: function () {
         console.log('language service request error');
