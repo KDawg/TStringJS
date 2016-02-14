@@ -5,7 +5,7 @@ var Application = (function($) {
   var showsView;
 
   function initialize() {
-    TS.analytics.onInit();
+    TS.analytics.init();
     TS.analytics.event('App', 'Load');
 
     appView = new TS.view.Application();
